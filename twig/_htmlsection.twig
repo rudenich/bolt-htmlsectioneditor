@@ -1,0 +1,19 @@
+{#=== Options ===========================================================================================================#}
+
+{% set attr_opt = {
+    class:        field.class|default(''),
+    name_id:      key,
+    required:     field.required|default(false),
+    readonly:     field.readonly|default(false)
+}%}
+
+{#=== FIELDSET =======================================================================================================#}
+
+<fieldset class="b-htmlsection">
+    <div class="col-sm-12">
+        <div>
+            <label class="control-label">{{field.label|default(key)}}</label>
+        </div>
+        <textarea data-htmlsection {{ macro.attr(attr_opt) }}>{{ context.content.get(key)|default('') }}</textarea>
+    </div>
+</fieldset>

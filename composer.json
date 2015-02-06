@@ -1,0 +1,26 @@
+{
+    "name": "bolt/htmlsection",
+    "description": "An extension to add a stmlsection editor as a field type within Bolt",
+    "type": "bolt-extension",
+    "require": {
+        "bolt/bolt": ">1.9,<3.0.0"
+    },
+    "license": "MIT",
+    "authors": [{"name": "Rudenko Nikolay", "email": "rudenich@gmail.com"}
+    ],
+    "keywords": [
+        "backend", "field", "htmlsection"
+    ],
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extensions\\HtmlSection\\": ""
+        }
+    },
+    
+    "extra": {
+        "bolt-assets": "assets"
+    }
+}
