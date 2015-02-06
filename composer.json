@@ -1,5 +1,5 @@
 {
-    "name": "bolt/htmlsection",
+    "name": "rudenich/htmlsection",
     "description": "An extension to add a stmlsection editor as a field type within Bolt",
     "type": "bolt-extension",
     "require": {
