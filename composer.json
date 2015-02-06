@@ -3,9 +3,9 @@
     "description": "An extension to add a stmlsection editor as a field type within Bolt",
     "type": "bolt-extension",
     "require": {
-        "bolt/bolt": " >=2.0.0,<3.0.0"
+        "bolt/bolt" : ">=2.0.0,<3.0.0"
     },
-    "license": "MIT",
+    "license" : "GPL-3.0+",
     "authors": [{"name": "Rudenko Nikolay", "email": "rudenich@gmail.com"}
     ],
     "keywords": [
